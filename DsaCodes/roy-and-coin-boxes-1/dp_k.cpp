@@ -1,11 +1,3 @@
-// Problem: K - Stones
-// Contest: AtCoder - Educational DP Contest
-// URL: https://atcoder.jp/contests/dp/tasks/dp_k
-// Memory Limit: 1024 MB
-// Time Limit: 2000 ms
-// 
-// Powered by CP Editor (https://cpeditor.org)
-
 #include <bits/stdc++.h>
 using namespace std;
  
@@ -28,42 +20,32 @@ using namespace std;
 
 int n;
 vi arr;
- 
- int func(int l,int h,int k){
- 	if(k==0) return 0;
- 	if(l==h) return 0;
- 	
- 	int ans=0;
- 	if(arr[h]<=k){
- 		ans+=1+func(l,h-1,k-arr[h]);
- 	}else{
- 		ans+=1+func(l+1,h,k-arr[l]);
- 	}
- 	return ans;
- }
- void solve() {
- 	int k;
-    cin>>n>>k;
-    
-    arr.resize(n);
-    sort(all(arr));
-    f(i,0,n) cin>>arr[i];
-    if(func(0,n-1,k)%2){
-    	cout<<"First" nline
-    }else{
-    	cout<<"Second" nline
-    }
+vector<int> dp;
 
+int func(int k){
+    if(k==0) return 0;
+    if(dp[k]!=-1) return dp[k];
+    f(i,0,n){
+        if(k-arr[i]>=0 && func(k-arr[i])==0){
+            return dp[k]=1;
+        }
+    }
+    return dp[k]=0;
 }
  
+void solve() {
+    int k;
+    cin>>n>>k;
+    arr.resize(n);
+    f(i,0,n) cin>>arr[i];
+    dp.assign(k+1,-1);
+    if(func(k)) cout<<"First" nline
+    else cout<<"Second" nline
+}
  
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-   // int t;
-   // cin>>t;
-	//while(t--){
-        solve();
-	//}
-	return 0;
+    solve();
+    return 0;
 }
