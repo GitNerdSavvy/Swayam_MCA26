@@ -1,0 +1,49 @@
+    // Problem ID, Title, Pattern Type
+    // 1480, Running Sum of 1D Array, 1D Static Prefix Sum
+    // 303, Range Sum Query - Immutable, 1D Static Prefix Sum
+    // 724, Find Pivot Index, 1D Static Prefix Sum
+    // 1991, Find the Middle Index in Array, 1D Static Prefix Sum
+    // 2485, Find the Pivot Integer, 1D Static Prefix Sum
+    // 1732, Find the Highest Altitude, 1D Static Prefix Sum
+    // 560, Subarray Sum Equals K, HashMap + Prefix Sum
+    // 974, Subarray Sums Divisible by K, HashMap + Prefix Sum (Modulo)
+    // 523, Continuous Subarray Sum, HashMap + Prefix Sum (Modulo)
+    // 525, Contiguous Array, Balanced Arrays / Zero-Sum via Prefix Sum
+    // 930, Binary Subarrays With Sum, HashMap + Prefix Sum
+    // 1248, Count Number of Nice Subarrays, HashMap + Prefix Sum
+    // 1524, Number of Sub-arrays With Odd Sum, HashMap + Prefix Sum (Parity)
+    // 1124, Longest Well-Performing Interval, Prefix Sum + HashMap (First Index)
+    // 862, Shortest Subarray with Sum at Least K, Prefix Sum + Monotonic Deque
+    // 209, Minimum Size Subarray Sum, Prefix Sum + Two Pointers (Positive)
+    // 2389, Longest Subsequence With Limited Sum, Sorted Prefix Sum + Greedy/Binary Search
+    // 1685, Sum of Absolute Differences in a Sorted Array, Prefix Sum on Sorted Array
+    // 2559, Count Vowel Strings in Ranges, Prefix Sum over Boolean Mask
+    // 2155, All Divisions With the Highest Score of a Binary Array, Prefix Sum of Counts
+    // 1422, Maximum Score After Splitting a String, Prefix Sum of Counts
+    // 238, Product of Array Except Self, Prefix Product (Variant)
+    // 1310, XOR Queries of a Subarray, Prefix XOR
+    // 1442, Count Triplets That Can Form Two Arrays of Equal XOR, Prefix XOR + HashMap
+    // 2433, Find The Original Array of Prefix Xor, Prefix XOR Inversion
+    // 1508, Range Sum of Sorted Subarray Sums, Prefix Sum + Sorting + Prefix of Prefix
+    // 327, Count of Range Sum, Prefix Sum + Balanced BST/Binary Search
+    // 363, Max Sum of Rectangle No Larger Than K, 2D Prefix Sum + Ordered Set
+    // 304, Range Sum Query 2D - Immutable, 2D Prefix Sum
+    // 1074, Number of Submatrices That Sum to Target, 2D Prefix Sum + HashMap
+    // 1314, Matrix Block Sum, 2D Prefix Sum
+    // 1292, Maximum Side Length of a Square with Sum <= Threshold, 2D Prefix Sum + Binary Search
+    // 643, Maximum Average Subarray I, Prefix Sum / Sliding Window
+    // 644, Maximum Average Subarray II, Prefix Sum + Binary Search on Answer
+    // 1109, Corporate Flight Bookings, Difference Array (Prefix Restore)
+    // 1094, Car Pooling, Difference Array (Prefix Restore)
+    // 370, Range Addition, Difference Array
+    // 2381, Shifting Letters II, Difference Array on Ranges
+    // 1769, Minimum Number of Operations to Move All Balls to Each Box, Prefix and Suffix Passes
+    // 2256, Minimum Average Difference, Prefix and Suffix Sums
+    // 2270, Number of Ways to Split Array, Prefix Sum + Count Splits
+    // 1177, Can Make Palindrome from Substring, Prefix Counts of Letters
+    // 2483, Minimum Penalty for a Shop, Prefix of Y/N Counts
+    // 2439, Minimize Maximum of Array, Prefix Average Feasibility
+    // 1856, Maximum Subarray Min-Product, Prefix Sum + Monotonic Stack
+    // 1371, Find the Longest Substring Containing Vowels in Even Counts, Prefix Bitmask Parity
+    // 1915, Number of Wonderful Substrings, Prefix Bitmask Parity + Counts
+    // 1546, Maximum Number of Non-Overlapping Subarrays With Sum Equals Target, Prefix Sum + HashSet Greedy
